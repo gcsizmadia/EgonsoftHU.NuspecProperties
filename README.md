@@ -63,8 +63,8 @@ The content of the `YourProject.csproj` file may look like this:
 When the `Pack` MSBuild target finishes then the followings happen:
 - The `.nupkg` file will be extracted to a temporary folder.
 - If either the `<Owners>` or the `<Summary>` MSBuild property is set then the extracted `.nuspec` file will be modified.
-  - The `owners` element will be added after `authors` element.
-  - The `summary` element will be added adter `description` element.
+  - The `owners` element will be added after the `authors` element.
+  - The `summary` element will be added after the `description` element.
 - The content of the temporary folder will be zipped into the original `.nupkg` file by overwriting it.
 - The temporary folder will be deleted.
 
