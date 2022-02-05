@@ -1,5 +1,7 @@
 # MSBuild support for deprecated NuGet metadata elements
 
+[![GitHub](https://img.shields.io/github/license/gcsizmadia/EgonsoftHU.NuspecProperties?label=License)](https://opensource.org/licenses/MIT)
+
 According to [.nuspec File Reference for NuGet](https://docs.microsoft.com/en-us/nuget/reference/nuspec) the following metadata elements are deprecated:
 
 - [owners](https://docs.microsoft.com/en-us/nuget/reference/nuspec#owners)

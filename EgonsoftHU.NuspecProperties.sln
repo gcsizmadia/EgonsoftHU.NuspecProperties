@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{9F9F5BEE
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		EgonsoftHU.NuspecProperties.targets = EgonsoftHU.NuspecProperties.targets
-		LICENSE.md = LICENSE.md
+		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
 EndProject
